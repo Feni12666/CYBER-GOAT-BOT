@@ -21,4 +21,11 @@
     "scripts/cmds/whitelistthread.js": "updated"
   },
   "note": "Major commands refreshed from shaon folder. Mentions system fixed and improved. Bot login stability enhanced. Economy system now API-based. Multiple fun and utility commands updated for better performance and bug fixes."
+},
+{
+  "version": "2.1.2",
+  "files": {
+    "database/controller/usersData.js": "Fixed fs-extra import syntax error and ensured stable data loading"
+  },
+  "note": "Fixed typo in fs-extra import (const → const) and corrected method naming for stable data handling."
 }
